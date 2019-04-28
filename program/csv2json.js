@@ -24,6 +24,7 @@ function toSlotWithActivity(record) {
     stop: datePlanned(record),
     activities: [ {
       room: '',
+      type: record.type,
       title: record.title,
       speaker: record.speaker,
       description: record.description
