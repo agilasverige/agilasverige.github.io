@@ -4,7 +4,6 @@ const parse = require('csv-parse/lib/sync');
 
 
 function toProgramRecord(row) {
-  const dayPlanned = row['I programmet'];
   return {
     speaker: row['Namn, inklusive eventuella medtalare'],
     type: row['Typ av tal'],
@@ -12,7 +11,8 @@ function toProgramRecord(row) {
     description: row['Beskrivning av blixttal/workshop'],
     planned: row['I programmet'],
     start:row['Start'],
-    stop: row['Stop']
+    stop: row['Stop'],
+    room: row['Rum']
   }
 }
 
@@ -24,7 +24,8 @@ function toBetterProgramRecord(record) {
     title: record.title,
     description: record.description,
     start: time(dayPlanned, record.start),
-    stop: time(dayPlanned, record.stop)
+    stop: time(dayPlanned, record.stop),
+    room: record.room
   }
 }
 
@@ -43,7 +44,7 @@ function toSlotWithActivity(record) {
     start: record.start,
     stop: record.stop,
     activities: [ {
-      room: '',
+      room: record.room,
       type: record.type,
       title: record.title,
       speaker: record.speaker,
@@ -58,7 +59,18 @@ const program = parse(input, { columns: true})
   .filter((record) => record.planned && record.planned !== 'Tillbakadragen av talaren')
   .map(toBetterProgramRecord)
   .sort((record1, record2) => record1.start.localeCompare(record2.start))
-  .map(toSlotWithActivity);
+  .map(toSlotWithActivity)
+  .reduce((acc, current) => {
+    const found = acc.find((slot) => slot.start === current.start);
+
+    if (found) {
+      found.activities = found.activities.concat(current.activities);
+    }
+    else {
+      acc.push(current);
+    }
+    return acc;
+  }, []);
 
 const outputFile = fs.openSync('program.json', 'w');
 fs.writeSync(outputFile, JSON.stringify(program));
