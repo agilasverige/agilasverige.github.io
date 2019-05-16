@@ -4,24 +4,44 @@ const parse = require('csv-parse/lib/sync');
 
 
 function toProgramRecord(row) {
+  const dayPlanned = row['I programmet'];
   return {
     speaker: row['Namn, inklusive eventuella medtalare'],
     type: row['Typ av tal'],
     title: row['Titel på blixttal/workshop'],
     description: row['Beskrivning av blixttal/workshop'],
-    planned: row['I programmet']
+    planned: row['I programmet'],
+    start:row['Start'],
+    stop: row['Stop']
   }
 }
 
-function datePlanned(record) {
-  const startDate = record.planned.startsWith('Dag 1') ? moment('2019-05-23') : moment('2019-05-24');
-  return startDate.format();
+function toBetterProgramRecord(record) {
+  const dayPlanned = record.planned;
+  return {
+    speaker: record.speaker,
+    type: record.type,
+    title: record.title,
+    description: record.description,
+    start: time(dayPlanned, record.start),
+    stop: time(dayPlanned, record.stop)
+  }
+}
+
+function datePlanned(dayPlanned) {
+  return dayPlanned.startsWith('Dag 1') ? moment('2019-05-23') : moment('2019-05-24');
+}
+
+function time(dayPlanned, time) {
+  const date = datePlanned(dayPlanned);
+  const start = moment(time, 'hh:mm');
+  return date.hour(start.hour()).minute(start.minute()).format();
 }
 
 function toSlotWithActivity(record) {
   return {
-    start: datePlanned(record),
-    stop: datePlanned(record),
+    start: record.start,
+    stop: record.stop,
     activities: [ {
       room: '',
       type: record.type,
@@ -36,7 +56,8 @@ const input = fs.readFileSync('talanmälningar.csv');
 const program = parse(input, { columns: true})
   .map(toProgramRecord)
   .filter((record) => record.planned && record.planned !== 'Tillbakadragen av talaren')
-  .sort((record1, record2) => record1.planned.localeCompare(record2.planned))
+  .map(toBetterProgramRecord)
+  .sort((record1, record2) => record1.start.localeCompare(record2.start))
   .map(toSlotWithActivity);
 
 const outputFile = fs.openSync('program.json', 'w');
