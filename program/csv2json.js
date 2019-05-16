@@ -53,24 +53,29 @@ function toSlotWithActivity(record) {
   }
 }
 
+function compareRooms(session1, session2) {
+  return session1.room.localeCompare(session2.room);
+}
+
+function groupByTime(slots, current) {
+  const found = slots.find((slot) => slot.start === current.start);
+  if (found) {
+    found.activities = found.activities.concat(current.activities).sort(compareRooms);
+  } else {
+    slots.push(current);
+  }
+  return slots;
+}
+
 const input = fs.readFileSync('talanmälningar.csv');
+
 const program = parse(input, { columns: true})
   .map(toProgramRecord)
   .filter((record) => record.planned && record.planned !== 'Tillbakadragen av talaren')
   .map(toBetterProgramRecord)
   .sort((record1, record2) => record1.start.localeCompare(record2.start))
   .map(toSlotWithActivity)
-  .reduce((acc, current) => {
-    const found = acc.find((slot) => slot.start === current.start);
-
-    if (found) {
-      found.activities = found.activities.concat(current.activities);
-    }
-    else {
-      acc.push(current);
-    }
-    return acc;
-  }, []);
+  .reduce(groupByTime, []);
 
 const outputFile = fs.openSync('program.json', 'w');
 fs.writeSync(outputFile, JSON.stringify(program));
