@@ -1,4 +1,8 @@
-const weekdays = [ 'söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag' ]
+const weekdays = [ 'söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag' ];
+
+function leftPad(minutes) {
+  return minutes < 10 ? '0' + minutes : minutes;
+}
 
 $.get("./program.json", function (program) {
 
@@ -13,8 +17,8 @@ $.get("./program.json", function (program) {
     });
 
     Handlebars.registerHelper('localTime', function (dateString) {
-      const date = new Date(Date.parse(dateString));
-      return date ? date.toLocaleTimeString().split(':').slice(0, 2).join(':') : '';
+      const date = new Date(dateString);
+      return date ? leftPad(date.getHours()) + ':' + leftPad(date.getMinutes()) : '';
     });
 
     const source = document.getElementById("program-template").innerHTML;
