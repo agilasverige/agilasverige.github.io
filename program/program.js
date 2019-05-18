@@ -48,15 +48,13 @@ $.get("./program.json", function (program) {
       $('.next').removeClass('next');
       const current = $('[data-start-time=' + currentAndNext.current + ']').addClass('current').get(0);
       $('[data-start-time=' + currentAndNext.next + ']').addClass('next');
-      console.log(window.location.hash);
-      if (current && (window.location.hash === "#next")) {
-        console.log("scrolling to " + current);
+      if (current) {
+        console.log("scrolling to " + new Date(currentAndNext.current));
         current.scrollIntoView();
       }
     }
 
     markCurrentSlot();
-    window.setInterval(markCurrentSlot, 60000);
 });
 
 
