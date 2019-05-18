@@ -10,7 +10,7 @@ function toProgramRecord(row) {
     title: row['Titel på blixttal/workshop'],
     description: row['Beskrivning av blixttal/workshop'],
     planned: row['I programmet'],
-    start:row['Start'],
+    start: row['Start'],
     stop: row['Stop'],
     room: row['Rum']
   }
@@ -43,7 +43,7 @@ function toSlotWithActivity(record) {
   return {
     start: record.start,
     stop: record.stop,
-    activities: [ {
+    activities: [{
       room: record.room,
       type: record.type,
       title: record.title,
@@ -67,9 +67,10 @@ function groupByTime(slots, current) {
   return slots;
 }
 
-const input = fs.readFileSync('talanmälningar.csv');
+const sessions = parse(fs.readFileSync('talanmälningar.csv'), {columns: true});
+const otherEvents = parse(fs.readFileSync('ovrigt.csv'), {columns: true})
 
-const program = parse(input, { columns: true})
+const program = sessions.concat(otherEvents)
   .map(toProgramRecord)
   .filter((record) => record.planned && record.planned !== 'Tillbakadragen av talaren')
   .map(toBetterProgramRecord)
