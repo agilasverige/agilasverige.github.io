@@ -39,6 +39,14 @@ a, a:active, a:visited, a:hover {
     margin-bottom: 2rem;
 }
 
+.tab-pane {
+    padding-top: 1.2rem;
+}
+
+.tab-pane h4 {
+    color: #FF2BC7
+}
+
 .sponsors {
     margin-top: 3rem;
     padding-top: 2rem;
