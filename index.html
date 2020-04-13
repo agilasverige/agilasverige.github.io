@@ -1,277 +1,253 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Agila Sverige</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <div class="page-header"><img alt="Agila Sverige" src="logo.png" /></div>
-    <div class="container-fluid">
-      <div class="row page-body">
-        <div class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6">
-          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation">
-              <a href="#home" aria-controls="home" role="tab" data-toggle="tab"
-                >Om Agila Sverige</a
-              >
-            </li>
-            <li role="presentation" class="active">
-              <a href="#next" aria-controls="next" role="tab" data-toggle="tab"
-                >Nästa konferens</a
-              >
-            </li>
-            <li role="presentation">
-              <a
-                href="#previous"
-                aria-controls="previous"
-                role="tab"
-                data-toggle="tab"
-              >
-                Tidigare konferenser
-              </a>
-            </li>
-            <li role="presentation">
-              <a
-                href="#contact"
-                aria-controls="contact"
-                role="tab"
-                data-toggle="tab"
-              >
-                Kontakta oss
-              </a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div role="tabpanel" class="tab-pane" id="home">
-              <p>
-                Agila Sverige är en konferens för alla som är intresserade av
-                agila metoder och vill lära sig mer om hur man gör
-                systemutveckling effektivare, roligare och mer värdeskapande.
-              </p>
-              <p>
-                Här skapar vi under två dagar en mötesplats där deltagarna
-                samlas för att utbyta erfarenheter, kunskaper och idéer med
-                varandra. Du kan komma till Agila Sverige som nybörjare eller
-                erfaren, som programmerare eller chef. Det enda de andra
-                konferensdeltagarna förväntar sig är att du beredd att dela med
-                dina erfarenheter.
-              </p>
-            </div>
-            <div role="tabpanel" class="tab-pane active" id="next">
-              <h4>Det blir ett Agila Sverige 2020!</h4>
-              <p>
-                Nästa konferens är planerad till den 4-5 juni 2020. Vi hoppas innerligt att vi kan ses då i fysisk form.
-                Om så inte skulle vara fallet så kommer vi att erbjuda en distans-konferens.
-                Det kommer bli annorlunda, men förhoppningen är att vi ska kunna behålla själen i det vi har lyckats
-                förmedla under alla dessa år.
-              </p>
-              <p>
-                Den 19 april är behöver vi av ekonomiska och avtalstekniska skäl bestämma om vi kör fysisk eller
-                distanskonferens. Givet detta så händer olika saker.
-              </p>
-              <h4>Fysisk konferens</h4>
-              <p>
-                Om vi kan hålla konferensen i fysisk form kommer vi som vanligt att hålla till på
-                <a href="https://goo.gl/maps/r2EQJ8x5cuwiQq7F7">7A Odenplan</a> den 4-5 juni.
-              </p>
-              <h4>Distanskonferens</h4>
-              <p>
-                Kan vi inte hålla en fysisk konferens, kommer vi att hålla en endagskonferens online,
-                med blixttal och interaktiva inslag. Den kommer att äga rum den 4 juni. För att göra alldeles underbar
-                distanskonferens med mycket gemenskap och interaktivitet tar vi gärna emot förslag och idéer från er
-                deltagare. Hör gärna av dig på <a href="mailto:info@agilasverige.se">på mail</a> eller gå med i
-                vår <a href="https://forms.gle/AHjWqUzji38xBcQA7">slack</a> om du vill vara med i diskussionerna.
-              </p>
-              <h4>Alldeles oavsett</h4>
-              <p>
-                Vi har beslutat att senarelägga deadline för talanmälan till 18 april, eftersom vi ändå inte kan sätta
-                programmet förrän vi vet vilken sorts konferens det blir.
-                <a href="https://forms.gle/ERMY2FhYRKfeVpUH6">Talanmälan hittar du här</a>.
-              </p>
-              <p>
-                Vi kommer att släppa den sista omgången biljetter till konferensen den 22 april (i stället för 15 april
-                som vi tidigare hade planerat). Biljetter köper du på vår
-                <a href="https://agilasverige20.confetti.events/signup">eventsajt</a>.
-              </p>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="previous">
-              <div>
-                <p>
-                  Nyfiken på tidigare års konferenser? Du hittar alla inspelade
-                  tal
-                  <a
-                    href="https://www.youtube.com/channel/UCSshZKmmcqIsjXHIQSNu4qQ"
-                    target="_blank"
-                  >
-                    på youtube</a
-                  >. Även programmen från tidigare år har vi sparat:
-                </p>
+<head>
+  <meta charset="utf-8" />
+  <title>Agila Sverige</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-                <ul>
-                  <li>
-                    <a href="agila_sverige_program_2019.pdf" target="_blank"
-                      >2019</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2018.pdf" target="_blank"
-                      >2018</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2017.pdf" target="_blank"
-                      >2017</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="agila_sverige_program_details_2017.pdf"
-                      target="_blank"
-                      >2017 (lång version)</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2016.pdf" target="_blank"
-                      >2016</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2015.pdf" target="_blank"
-                      >2015</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2014.pdf" target="_blank"
-                      >2014</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2013.pdf" target="_blank"
-                      >2013</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2012.pdf" target="_blank"
-                      >2012</a
-                    >
-                  </li>
-                  <li>
-                    <a href="agila_sverige_program_2011.pdf" target="_blank"
-                      >2011</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="contact">
-              Kontakta oss gärna
-              <a href="mailto:info@agilasverige.se">på mail</a> eller
-              <a href="https://twitter.com/agilasverige">Twitter</a>
-              om du har frågor eller idéer.
+<body>
+  <div class="page-header"><img alt="Agila Sverige" src="logo.png" /></div>
+  <div class="container-fluid">
+    <div class="row page-body">
+      <div class="col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation">
+            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Om Agila Sverige</a>
+          </li>
+          <li role="presentation" class="active">
+            <a href="#next" aria-controls="next" role="tab" data-toggle="tab">Nästa konferens</a>
+          </li>
+          <li role="presentation">
+            <a href="#previous" aria-controls="previous" role="tab" data-toggle="tab">
+              Tidigare konferenser
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">
+              Kontakta oss
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane" id="home">
+            <p>
+              Agila Sverige är en konferens för alla som är intresserade av
+              agila metoder och vill lära sig mer om hur man gör
+              systemutveckling effektivare, roligare och mer värdeskapande.
+            </p>
+            <p>
+              Här skapar vi under två dagar en mötesplats där deltagarna
+              samlas för att utbyta erfarenheter, kunskaper och idéer med
+              varandra. Du kan komma till Agila Sverige som nybörjare eller
+              erfaren, som programmerare eller chef. Det enda de andra
+              konferensdeltagarna förväntar sig är att du beredd att dela med
+              dina erfarenheter.
+            </p>
+          </div>
+          <div role="tabpanel" class="tab-pane active" id="next">
+            <h4>Det blir två Agila Sverige 2020!</h4>
+
+            <p>
+              På grund av COVID19-läget kommer vi inte att kunna hålla en fysisk konferens den 4-5 juni som planerat.
+              Men hav tröst! I stället kommer vi att göra två olika saker:
+
+              <ol>
+                <li>
+                  Vi kommer att hålla en distanskonferens online den 5 juni.
+                </li>
+                <li>
+                  Vi kommer att hålla en fysisk konferens så snart det är möjligt, troligen i höst.
+                </li>
+              </ol>
+
+              Du som redan har köpt biljett till försommarkonferensen kommer att kunna delta på både distanskonferensen
+              och den fysiska konferensen utan extra kostnad. Vi kommer även att släppa fler biljetter till båda
+              tillfällena.
+            </p>
+
+            <h4>Distanskonferens 5 juni</h4>
+            <p>
+              Programmet för distanskonferensen är inte spikat ännu, men klart är att:
+              <ul>
+                <li>
+                  Det blir en blandning av blixttal, open space och andra interaktiva inslag
+                </li>
+                <li>
+                  Vi kommer att göra allt vi kan för att maximera Agila Sverige-känslan
+                </li>
+                <li>
+                  Vi kommer att använda videokonferensverktyget <a href="https://zoom.us">Zoom</a> för genomförandet
+                </li>
+                <li>
+                  Talen kommer att genomföras live via skärmdelning och vi kommer inte att spela in dem
+                </li>
+              </ul>
+        
+            </p>
+            <p>
+              Den sista omgången biljetter till distanskonferensen släpper vi den 22 april på vår
+              <a href="https://agilasverigeremote.confetti.events/signup">eventsajt</a>.
+              
+              <a href="https://forms.gle/ERMY2FhYRKfeVpUH6">Talanmälan</a> är fortfarande öppen. Sista dag för anmälan
+              av bidrag är 18 april.
+            </p>
+            <p>
+              Hör gärna av dig på <a href="mailto:info@agilasverige.se">på mail</a> eller gå med i
+              vår <a href="https://forms.gle/AHjWqUzji38xBcQA7">slack</a> om du har idéer på inslag eller upplägg som
+              kan hjälpa oss att överföra Agila Sverige-känslan till ett digitalt format.
+            </p>
+            <h4>Fysisk konferens</h4>
+            <p>
+              Vi jobbar för tillfället på att hitta datum och lokal för den fysiska konferensen i höst. Mer information
+              kommer så fort vi vet mer.
+            </p>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="previous">
+            <div>
+              <p>
+                Nyfiken på tidigare års konferenser? Du hittar alla inspelade
+                tal
+                <a href="https://www.youtube.com/channel/UCSshZKmmcqIsjXHIQSNu4qQ" target="_blank">
+                  på youtube</a>. Även programmen från tidigare år har vi sparat:
+              </p>
+
+              <ul>
+                <li>
+                  <a href="agila_sverige_program_2019.pdf" target="_blank">2019</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2018.pdf" target="_blank">2018</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2017.pdf" target="_blank">2017</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_details_2017.pdf" target="_blank">2017 (lång version)</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2016.pdf" target="_blank">2016</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2015.pdf" target="_blank">2015</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2014.pdf" target="_blank">2014</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2013.pdf" target="_blank">2013</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2012.pdf" target="_blank">2012</a>
+                </li>
+                <li>
+                  <a href="agila_sverige_program_2011.pdf" target="_blank">2011</a>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row sponsors">
-        <div class="col-md-12 text-center">
-          <h1>Sponsorer 2020</h1>
-          <div class="logos">
-            <div class="logo">
-              <a href="https://www.agical.se/" target="_blank">
-                <img src="logos/agical_logo.png" alt="Agical"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.aptitud.se/" target="_blank">
-                <img src="logos/aptitud_logo.png" alt="Aptitud"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://stretch.se/atlassian" target="_blank">
-                <img src="logos/atlassian_logo.png" alt="Atlassian"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.avanza.se/" target="_blank">
-                <img src="logos/avanza_logo_2020.png" alt="Avanza Bank"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://cag.se" target="_blank">
-                  <img src="logos/cag_logo.png" alt="C.A.G"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://citerus.se" target="_blank">
-                  <img src="logos/citerus_logo.png" alt="Citerus"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.crisp.se/" target="_blank">
-                <img src="logos/crisp_logo.jpg" alt="Crisp"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.emergent.se/" target="_blank">
-                <img src="logos/emergent_logo.jpg" alt="Emergent"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://nitor.com/en" target="_blank">
-                <img src="logos/nitor_logo.png" alt="Nitor"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.omegapoint.se/" target="_blank">
-                <img src="logos/omegapoint_logo.png" alt="Omegapoint"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.proagile.se/" target="_blank">
-                <img src="logos/proagile_logo.png" alt="Proagile"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.scania.com/"
-                 target="_blank">
-                  <img src="logos/scania_logo.png" alt="Scania"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://seb.se" target="_blank">
-                  <img src="logos/seb_logo.png" style="width: 115px; height: 115px;" alt="SEB"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.seventyoneconsulting.se/" target="_blank">
-                <img src="logos/seventyone_logo.png" alt="SeventyOne Consulting"/>
-              </a>
-            </div>
-            <div class="logo">
-              <a href="https://www.snowsoftware.com/" target="_blank">
-                <img src="logos/snow_software_logo.jpg" alt="Snow Software"/>
-              </a>
-            </div>
+          <div role="tabpanel" class="tab-pane" id="contact">
+            Kontakta oss gärna
+            <a href="mailto:info@agilasverige.se">på mail</a> eller
+            <a href="https://twitter.com/agilasverige">Twitter</a>
+            om du har frågor eller idéer.
           </div>
         </div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="row sponsors">
+      <div class="col-md-12 text-center">
+        <h1>Sponsorer 2020</h1>
+        <div class="logos">
+          <div class="logo">
+            <a href="https://www.agical.se/" target="_blank">
+              <img src="logos/agical_logo.png" alt="Agical" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.aptitud.se/" target="_blank">
+              <img src="logos/aptitud_logo.png" alt="Aptitud" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://stretch.se/atlassian" target="_blank">
+              <img src="logos/atlassian_logo.png" alt="Atlassian" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.avanza.se/" target="_blank">
+              <img src="logos/avanza_logo_2020.png" alt="Avanza Bank" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://cag.se" target="_blank">
+              <img src="logos/cag_logo.png" alt="C.A.G" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://citerus.se" target="_blank">
+              <img src="logos/citerus_logo.png" alt="Citerus" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.crisp.se/" target="_blank">
+              <img src="logos/crisp_logo.jpg" alt="Crisp" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.emergent.se/" target="_blank">
+              <img src="logos/emergent_logo.jpg" alt="Emergent" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://nitor.com/en" target="_blank">
+              <img src="logos/nitor_logo.png" alt="Nitor" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.omegapoint.se/" target="_blank">
+              <img src="logos/omegapoint_logo.png" alt="Omegapoint" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.proagile.se/" target="_blank">
+              <img src="logos/proagile_logo.png" alt="Proagile" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.scania.com/" target="_blank">
+              <img src="logos/scania_logo.png" alt="Scania" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://seb.se" target="_blank">
+              <img src="logos/seb_logo.png" style="width: 115px; height: 115px;" alt="SEB" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.seventyoneconsulting.se/" target="_blank">
+              <img src="logos/seventyone_logo.png" alt="SeventyOne Consulting" />
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.snowsoftware.com/" target="_blank">
+              <img src="logos/snow_software_logo.jpg" alt="Snow Software" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
