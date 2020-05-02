@@ -1,4 +1,6 @@
+const endOfFirstConferenceDay = Date.parse('2020-06-06T00:00:00+02:00');
 const weekdays = [ 'söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag' ];
+
 
 function leftPad(minutes) {
   return minutes < 10 ? '0' + minutes : minutes;
@@ -24,14 +26,14 @@ $.get("./program.json", function (program) {
     const source = document.getElementById("program-template").innerHTML;
     const template = Handlebars.compile(source);
 
-    const programDay1 = program.filter((slot) => Date.parse(slot.start) < Date.parse('2019-05-24T00:00:00+02:00'));
-    const programDay2 = program.filter((slot) => Date.parse(slot.start) >= Date.parse('2019-05-24T00:00:00+02:00'));
+    const programDay1 = program.filter((slot) => Date.parse(slot.start) < endOfFirstConferenceDay);
+    const programDay2 = program.filter((slot) => Date.parse(slot.start) >= endOfFirstConferenceDay);
 
     const day1Html = template({slots: programDay1});
-    const day2Html = template({slots: programDay2});
+    //const day2Html = template({slots: programDay2});
 
     document.getElementById("program-day-1").innerHTML = day1Html;
-    document.getElementById("program-day-2").innerHTML = day2Html;
+    //document.getElementById("program-day-2").innerHTML = day2Html;
 
     const startTimes = program.map(slot => Date.parse(slot.start));
 

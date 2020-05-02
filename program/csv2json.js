@@ -3,6 +3,8 @@ const moment = require('moment');
 const parse = require('csv-parse/lib/sync');
 
 
+const firstConferenceDay = moment('2020-06-05')
+
 function toProgramRecord(row) {
   return {
     speaker: row['Namn, inklusive eventuella medtalare'],
@@ -30,7 +32,7 @@ function toBetterProgramRecord(record) {
 }
 
 function datePlanned(dayPlanned) {
-  return dayPlanned.startsWith('Dag 1') ? moment('2019-05-23') : moment('2019-05-24');
+  return dayPlanned.startsWith('Dag 1') ? firstConferenceDay : firstConferenceDay.add(1, 'days');
 }
 
 function time(dayPlanned, time) {
