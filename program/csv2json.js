@@ -32,7 +32,7 @@ function toBetterProgramRecord(record) {
 }
 
 function datePlanned(dayPlanned) {
-  return dayPlanned.startsWith('Dag 1') ? firstConferenceDay : firstConferenceDay.add(1, 'days');
+  return dayPlanned.startsWith('Dag 1') ? firstConferenceDay : firstConferenceDay.clone().add(1, 'days');
 }
 
 function time(dayPlanned, time) {
