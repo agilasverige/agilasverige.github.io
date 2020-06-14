@@ -14,7 +14,8 @@ function toProgramRecord(row) {
     planned: row['I programmet'],
     start: row['Start'],
     stop: row['Stop'],
-    room: row['Rum']
+    room: row['Rum'],
+    material: row['Material']
   }
 }
 
@@ -27,7 +28,8 @@ function toBetterProgramRecord(record) {
     description: record.description,
     start: time(dayPlanned, record.start),
     stop: time(dayPlanned, record.stop),
-    room: record.room
+    room: record.room,
+    material: record.material
   }
 }
 
@@ -50,7 +52,8 @@ function toSlotWithActivity(record) {
       type: record.type,
       title: record.title,
       speaker: record.speaker,
-      description: record.description
+      description: record.description,
+      material: record.material
     }]
   }
 }
