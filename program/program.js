@@ -1,4 +1,4 @@
-const endOfFirstConferenceDay = Date.parse('2020-06-06T00:00:00+02:00');
+const endOfFirstConferenceDay = Date.parse('2021-10-28T00:00:00+02:00');
 const weekdays = [ 'söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag' ];
 
 
@@ -30,10 +30,10 @@ $.get("./program.json", function (program) {
     const programDay2 = program.filter((slot) => Date.parse(slot.start) >= endOfFirstConferenceDay);
 
     const day1Html = template({slots: programDay1});
-    //const day2Html = template({slots: programDay2});
+    const day2Html = template({slots: programDay2});
 
     document.getElementById("program-day-1").innerHTML = day1Html;
-    //document.getElementById("program-day-2").innerHTML = day2Html;
+    document.getElementById("program-day-2").innerHTML = day2Html;
 
     const startTimes = program.map(slot => Date.parse(slot.start));
 
