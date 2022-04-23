@@ -3,7 +3,7 @@ const moment = require('moment');
 const parse = require('csv-parse/lib/sync');
 
 
-const firstConferenceDay = moment('2021-10-27')
+const firstConferenceDay = moment('2022-05-19')
 
 function toProgramRecord(row) {
   return {
@@ -72,12 +72,12 @@ function groupByTime(slots, current) {
   return slots;
 }
 
-const sessions = parse(fs.readFileSync('talanmälningar.csv'), {columns: true});
-const otherEvents = parse(fs.readFileSync('ovrigt.csv'), {columns: true})
+const sessions = parse(fs.readFileSync('talanmälningar.csv'), { columns: true });
+const otherEvents = parse(fs.readFileSync('ovrigt.csv'), { columns: true })
 
 const program = sessions.concat(otherEvents)
   .map(toProgramRecord)
-  .filter((record) => record.planned && record.planned !== 'Tillbakadragen av talaren')
+  .filter((record) => record.planned && record.planned.startsWith('Dag'))
   .map(toBetterProgramRecord)
   .sort((record1, record2) => record1.start.localeCompare(record2.start))
   .map(toSlotWithActivity)
