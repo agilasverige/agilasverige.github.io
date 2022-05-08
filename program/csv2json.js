@@ -46,8 +46,8 @@ function time(dayPlanned, time) {
 function toSlotWithActivity(record) {
   return {
     start: record.start,
-    stop: record.stop,
     activities: [{
+      stop: record.stop,
       room: record.room,
       type: record.type,
       title: record.title,
