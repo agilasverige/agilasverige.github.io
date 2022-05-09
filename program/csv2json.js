@@ -15,6 +15,7 @@ function toProgramRecord(row) {
     start: row['Start'],
     stop: row['Stop'],
     room: row['Rum'],
+    prefix: row['Prefix'],
     material: row['Material']
   }
 }
@@ -24,6 +25,7 @@ function toBetterProgramRecord(record) {
   return {
     speaker: record.speaker,
     type: record.type,
+    prefix: record.prefix,
     title: record.title,
     description: record.description,
     start: time(dayPlanned, record.start),
@@ -50,6 +52,7 @@ function toSlotWithActivity(record) {
       stop: record.stop,
       room: record.room,
       type: record.type,
+      prefix: record.prefix,
       title: record.title,
       speaker: record.speaker,
       description: record.description,
