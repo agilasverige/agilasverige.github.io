@@ -27,7 +27,7 @@ function toBetterProgramRecord(record) {
     type: record.type,
     prefix: record.prefix,
     title: record.title,
-    description: record.description,
+    description: record.description.split('\n'),
     start: time(dayPlanned, record.start),
     stop: time(dayPlanned, record.stop),
     room: record.room,

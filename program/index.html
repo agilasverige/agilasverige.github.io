@@ -46,9 +46,11 @@
                 <div class="card-body">
                     <h5 class="card-title">{{#if prefix}}{{prefix}}: {{/if}}{{title}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{speaker}}</h6>
+                    {{#each description }}
                     <p class="card-text">
-                        {{description}}
+                        {{this}}
                     </p>
+                    {{/each}}
                     {{#if material}}
                     <p class="card-text">
                         <a href="./material/{{material}}">{{material}}</a>
