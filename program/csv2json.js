@@ -27,7 +27,7 @@ function toBetterProgramRecord(record) {
     type: record.type,
     prefix: record.prefix,
     title: record.title,
-    description: record.description.split('\n'),
+    descriptionParagraphs: record.description.split('\n'),
     start: time(dayPlanned, record.start),
     stop: time(dayPlanned, record.stop),
     room: record.room,
@@ -55,7 +55,7 @@ function toSlotWithActivity(record) {
       prefix: record.prefix,
       title: record.title,
       speaker: record.speaker,
-      description: record.description,
+      descriptionParagraphs: record.descriptionParagraphs,
       material: record.material
     }]
   }
