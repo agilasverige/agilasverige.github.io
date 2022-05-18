@@ -56,6 +56,11 @@
                         <a href="./material/{{material}}">{{material}}</a>
                     </p>
                     {{/if}}
+                    {{#if link}}
+                    <p class="card-text">
+                        <a href="{{link}}" target="_blank">{{linkText}}</a>
+                    </p>
+                    {{/if}}
                 </div>
             </div>
             {{/each}}

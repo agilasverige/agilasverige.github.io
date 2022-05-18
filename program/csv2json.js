@@ -16,6 +16,8 @@ function toProgramRecord(row) {
     stop: row['Stop'],
     room: row['Rum'],
     prefix: row['Prefix'],
+    link: row['Länk'],
+    linkText: row['Länktext'],
     material: row['Material']
   }
 }
@@ -31,6 +33,8 @@ function toBetterProgramRecord(record) {
     start: time(dayPlanned, record.start),
     stop: time(dayPlanned, record.stop),
     room: record.room,
+    link: record.link,
+    linkText: record.linkText,
     material: record.material
   }
 }
@@ -56,6 +60,8 @@ function toSlotWithActivity(record) {
       title: record.title,
       speaker: record.speaker,
       descriptionParagraphs: record.descriptionParagraphs,
+      link: record.link,
+      linkText: record.linkText,
       material: record.material
     }]
   }
