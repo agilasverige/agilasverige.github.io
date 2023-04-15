@@ -3,14 +3,14 @@ const moment = require('moment');
 const parse = require('csv-parse/lib/sync');
 
 
-const firstConferenceDay = moment('2022-05-19')
+const firstConferenceDay = moment('2023-05-25')
 
 function toProgramRecord(row) {
-  return {
-    speaker: row['Namn, inklusive eventuella medtalare'],
-    type: row['Typ av tal'],
-    title: row['Titel på blixttal/workshop'],
-    description: row['Beskrivning av blixttal/workshop'],
+  const record =  {
+    speaker: row['Namn, inklusive eventuella medtalare/ Name, including co speaker'],
+    type: row['Typ av tal/ Type of talk'],
+    title: row['Titel på blixttal/workshop/ Title'],
+    description: row['Beskrivning av blixttal/workshop/ Description of talk/workshop'],
     planned: row['I programmet'],
     start: row['Start'],
     stop: row['Stop'],
@@ -20,6 +20,7 @@ function toProgramRecord(row) {
     linkText: row['Länktext'],
     material: row['Material']
   }
+  return record
 }
 
 function toBetterProgramRecord(record) {
@@ -29,7 +30,7 @@ function toBetterProgramRecord(record) {
     type: record.type,
     prefix: record.prefix,
     title: record.title,
-    descriptionParagraphs: record.description.split('\n'),
+    descriptionParagraphs: splitIntoParagraphs(record.description),
     start: time(dayPlanned, record.start),
     stop: time(dayPlanned, record.stop),
     room: record.room,
@@ -37,6 +38,13 @@ function toBetterProgramRecord(record) {
     linkText: record.linkText,
     material: record.material
   }
+}
+
+function splitIntoParagraphs(text) {
+  if (typeof text != 'string') {
+    return []
+  }
+  return text.split('\n')
 }
 
 function datePlanned(dayPlanned) {
