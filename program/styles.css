@@ -1,0 +1,18 @@
+
+
+.card, .card-header {
+    border-color: #ff2bc7e3;
+}
+
+.card-header {
+    color: white;
+    background-color: #ff2bc7c5;
+}
+
+.card-header .text-agila-muted {
+    color: #FFFFFFdd;
+}
+
+.card.next .card-header {
+    background-color: #FF2BC7ee;
+}
