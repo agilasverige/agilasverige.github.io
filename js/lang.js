@@ -78,7 +78,7 @@ const langArr = {
         "uk": "Більше інформації тут!",
     },
     "nextLi11": {
-        "sv": " Tvåspråkighet! Även du som inte är bekväm med svenska ska känna dig välkommen på konferensen. Därför välkomnar vi särskilt tal och workshops som hålls på engelska.",
+        "sv": " Tvåspråkighet! Även du som inte är bekväm med svenska ska känna dig välkommen på konferensen. Programmet kommer i år att bestå till ungefär hälften av tal och workshops som hålls på engelska.",
         "en": " A bilingual conference. We’d like to welcome everyone in the Swedish Agile community, not only those who are comfortable with the Swedish language. This year’s program will contain sessions in Swedish and English.",
         "uk": " Двомовність! Навіть ви, хто не володіє шведською мовою, повинні відчувати себе бажаними на конференції. Тому ми особливо вітаємо виступи та семінари, які проводяться англійською мовою.",
     },
@@ -88,31 +88,21 @@ const langArr = {
         "uk": "Випуск квитків",
     },
     "nextSpan21": {
-        "sv": "Årets deltagarbiljetter gick åt på några få timmar. Missade du släppet? Då rekommenderar vi dig att hålla utkik på",
-        "en": " Our first batch of regular tickets sold out in a few hours. Did you miss the release date? Then our recommendation is to follow us on",
+        "sv": "De flesta biljetterna sålde slut på några timmar i januari. Men misströsta inte! ﻿Tisdag den 25 april kl. 12 kommer vi att släppa ytterligare ett fåtal biljetter",
+        "en": "Our first batch of regular tickets sold out in a few hours in January. But there is hope! We will release a few more tickets on Tuesday April 25 at 12 noon",
         "uk": "Цьогорічні квитки на участь розкупили за кілька годин. Ви пропустили випуск? Тоді рекомендуємо вам стежити за",
     },
     "nextA21": {
-        "sv": "LinkedIn",
-        "en": "LinkedIn",
-        "uk": "LinkedIn",
+        "sv": "på vår eventsajt",
+        "en": "on the conference event site",
+        "uk": "",
     },
     "nextSpan22": {
-        "sv": " eller via vår",
-        "en": " or sign up for our",
-        "uk": "або за  нашою ",
-    },
-    "nextA22": {
-        "sv": "mejllista",
-        "en": "newsletter",
-        "uk": "розсилкою",
-    },
-    "nextSpan23": {
-        "sv": " i andra halvan av april. Då kommer vi troligen att släppa ytterligare ett fåtal biljetter. Du är förstås också välkommen att hålla ett tal eller sponsra för att på så vis knipa en plats på konferensen.",
-        "en": ". We will probably release a few more tickets in mid-late April. Or, you’re of course welcome to submit a talk proposal or have your company sponsor it to get hold of a free ticket.",
+        "sv": ". Vi rekommenderar att du hänger på låset, för de brukar gå åt kvickt. Du är förstås också välkommen att sponsra för att på så vis knipa en plats på konferensen.",
+        "en": ". Our tickets usually sell out quickly, so we recommend you to be there on time to get one. You’re of course also welcome to have your company sponsor the conference to get hold of a free ticket.",
         "uk": "у другій половині квітня. Тоді, ймовірно, випустимо ще кілька квитків. Звичайно, ви також можете виступити з промовою або стати спонсором, щоб забезпечити собі місце на конференції.",
-    }, 
-     "nextTtl31": {
+    },
+    "nextTtl31": {
         "sv": " Talanmälan",
         "en": "Call for Proposals",
         "uk": "Звіт про виступ",
@@ -176,13 +166,13 @@ const langArr = {
         "sv": " på Youtube",
         "en": "on Youtube",
         "uk": "на Youtube",
-    }, 
+    },
     "prevA21": {
         "sv": "2017 (lång version)",
         "en": "2017 (long version)",
         "uk": "2017 (довга версія)",
-    }, 
-     "prevSpan12": {
+    },
+    "prevSpan12": {
         "sv": ". Även programmen från tidigare år har vi sparat:",
         "en": ". We have also kept the programs from previous years:",
         "uk": ". Ми також зберегли програми попередніх років:",
@@ -191,52 +181,52 @@ const langArr = {
         "sv": " Vill du ha nyheter om framtida konferenser och biljettsläpp? Då rekommenderar vi att du anmäler dig till vår",
         "en": "Do you want news about future conferences and ticket releases? Then we recommend you to sign up for our",
         "uk": "Бажаєте отримувати новини про майбутні конференції та випуск квитків? Тоді рекомендуємо вам підписатися на нашому сайті",
-    }, 
+    },
     "contA11": {
         "sv": "mejllista. ",
         "en": "newsletter.",
         "uk": "на розсилку.",
-    }, 
+    },
     "contSpan12": {
         "sv": "Du kan också följa oss på  ",
         "en": "You may also follow us on",
         "uk": "Ви також можете слідкувати за нами у",
-    }, 
+    },
     "contA12": {
         "sv": " LinkedIn ",
         "en": " LinkedIn",
         "uk": " LinkedIn",
-    }, 
+    },
     "contSpan21": {
         "sv": "Vi har även en slack-community.",
         "en": "We also have a slack community.",
         "uk": "У нас також є  Slack-спільнота.",
-    }, 
+    },
     "contA21": {
         "sv": "Här",
         "en": "Register here",
         "uk": "Тут",
-    }, 
+    },
     "contSpan22": {
         "sv": " kan du anmäla dig så skickar vi en inbjudan.",
         "en": "to get an invitation sent to you. ",
         "uk": "ви можете зареєструватися, і ми надішлемо вам запрошення. ",
-    }, 
+    },
     "contSpan31": {
         "sv": " Kontakta oss gärna",
         "en": "Please contact us",
         "uk": "Будь ласка, зв'яжіться з нами по ",
-    }, 
+    },
     "contA31": {
         "sv": " på mail",
         "en": "by email",
         "uk": " email",
-    }, 
+    },
     "contSpan32": {
         "sv": " om du har frågor eller idéer.",
         "en": "if you have questions or ideas.",
         "uk": "якщо у вас є запитання чи ідеї.",
-    }, 
+    },
 
     "footer": {
         "sv": "Sponsorer 2023",
