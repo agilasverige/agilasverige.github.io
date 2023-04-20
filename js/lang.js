@@ -102,6 +102,18 @@ const langArr = {
         "en": ". Our tickets usually sell out quickly, so we recommend you to be there on time to get one. You’re of course also welcome to have your company sponsor the conference to get hold of a free ticket.",
         "uk": "у другій половині квітня. Тоді, ймовірно, випустимо ще кілька квитків. Звичайно, ви також можете виступити з промовою або стати спонсором, щоб забезпечити собі місце на конференції.",
     },
+    "nextTtlProgram": {
+        "sv": "Program",
+        "en": "Program",
+    },
+    "nextSpanProgram1": {
+        "sv": "Nu finns det en första, preliminär version av",
+        "en": "We've published a first, preliminary version of the",
+    },
+    "nextAProgram1": {
+        "sv": "konferensprogrammet",
+        "en": "conference program",
+    },
     "nextTtl31": {
         "sv": " Talanmälan",
         "en": "Call for Proposals",
