@@ -293,6 +293,8 @@ body {
 
 .slider__item img {
     max-width: 170px;
+    max-height: 130px;
+    object-fit: contain;
     padding: 10px;
 }
 
