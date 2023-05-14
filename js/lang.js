@@ -107,12 +107,12 @@ const langArr = {
         "en": "Program",
     },
     "nextSpanProgram1": {
-        "sv": "Nu finns det en första, preliminär version av",
-        "en": "We've published a first, preliminary version of the",
+        "sv": "Det färdiga konferensprogrammet hittar du ",
+        "en": "We've pulished the conference program ",
     },
     "nextAProgram1": {
-        "sv": "konferensprogrammet",
-        "en": "conference program",
+        "sv": "här",
+        "en": "here",
     },
     "nextTtl31": {
         "sv": " Talanmälan",
