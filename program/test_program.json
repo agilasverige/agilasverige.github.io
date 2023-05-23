@@ -4,7 +4,17 @@
         "activities": [
             {
                 "stop": "2023-05-23T07:15:00+02:00",
-                "room": "",
+                "room": "Tab",
+                "type": "",
+                "title": "Tabelitab",
+                "speaker": "",
+                "descriptionParagraphs": [
+                    ""
+                ]
+            },
+            {
+                "stop": "2023-05-23T09:00:00+02:00",
+                "room": "Space",
                 "type": "",
                 "title": "Frukost och mingel",
                 "speaker": "",
@@ -30,10 +40,10 @@
         ]
     },
     {
-        "start": "2023-05-22T09:12:00+02:00",
+        "start": "2023-05-23T09:12:00+02:00",
         "activities": [
             {
-                "stop": "2023-05-22T09:22:00+02:00",
+                "stop": "2023-05-23T09:22:00+02:00",
                 "room": "Space",
                 "type": "Blixttal/ lightning talk",
                 "title": "Potential of leadership beyond the ego",
@@ -55,10 +65,10 @@
         ]
     },
     {
-        "start": "2023-05-22T22:24:00+02:00",
+        "start": "2023-05-23T22:24:00+02:00",
         "activities": [
             {
-                "stop": "2023-05-22T22:34:00+02:00",
+                "stop": "2023-05-23T22:34:00+02:00",
                 "room": "Space",
                 "type": "Blixttal/ lightning talk",
                 "title": "Co-creating a vision in the open with 5000+ people",

@@ -6,11 +6,20 @@ function leftPad(minutes) {
 
 $.get("./test_program.json", function (rawProgram) {
 
-  room = "space";
+  const roomHash = window.location.hash || "#space";
+  const room = roomHash.substring(1);
+
+  function findActivityForRoom(activities, roomName) {
+    const indexFound = activities.findIndex((activity) => activity.room.toLowerCase() === roomName);
+    if (indexFound >= 0) {
+      return activities[indexFound];
+    }
+    return activities[0];
+  }
 
   function rawSlotToSlot(rawSlot) {
-    activity = rawSlot.activities[0]
-    return { start: Date.parse(rawSlot.start), end: Date.parse(activity.stop), title: activity.title };
+    const activity = findActivityForRoom(rawSlot.activities, room)
+    return { start: new Date(Date.parse(rawSlot.start)), end: new Date(Date.parse(activity.stop)), title: activity.title };
   }
 
   function findCurrent(now) {
@@ -21,9 +30,9 @@ $.get("./test_program.json", function (rawProgram) {
     }
     const nextIndex = program.findIndex((slot) => slot.start >= now);
     if (nextIndex >= 0) {
-      return { start: new Date(), end: program[nextIndex].end, title: "Paus" };
+      return { start: new Date(), end: program[nextIndex].start, title: "Paus" };
     }
-    return { start: new Date(), end: new Date().setFullYear(new Date().getFullYear() + 1), title: "Paus" };
+    return { start: new Date(), end: new Date().setFullYear(new Date().getFullYear() + 1), title: "Slut för i år" };
   }
 
   const program = rawProgram.map((slot) => rawSlotToSlot(slot));
