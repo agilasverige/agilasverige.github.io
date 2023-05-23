@@ -65,10 +65,10 @@
         ]
     },
     {
-        "start": "2023-05-23T22:24:00+02:00",
+        "start": "2023-05-23T09:24:00+02:00",
         "activities": [
             {
-                "stop": "2023-05-23T22:34:00+02:00",
+                "stop": "2023-05-23T09:34:00+02:00",
                 "room": "Space",
                 "type": "Blixttal/ lightning talk",
                 "title": "Co-creating a vision in the open with 5000+ people",
