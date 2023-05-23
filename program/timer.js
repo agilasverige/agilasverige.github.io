@@ -4,7 +4,14 @@ function leftPad(minutes) {
   return minutes < 10 ? '0' + minutes : minutes;
 }
 
-$.get("./test_program.json", function (rawProgram) {
+function programName(search) {
+  if (search.includes("?test")) {
+    return "./test_program.json"
+  }
+  return "./program.json";
+}
+
+$.get(programName(window.location.search), function (rawProgram) {
 
   const roomHash = window.location.hash || "#space";
   const room = roomHash.substring(1);
