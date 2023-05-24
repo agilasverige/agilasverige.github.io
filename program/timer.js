@@ -1,5 +1,7 @@
 
 
+
+
 function leftPad(minutes) {
   return minutes < 10 ? '0' + minutes : minutes;
 }
@@ -15,6 +17,15 @@ $.get(programName(window.location.search), function (rawProgram) {
 
   const roomHash = window.location.hash || "#space";
   const room = roomHash.substring(1);
+  let muted = true
+
+  function bell() {
+    if (!muted) {
+      const audio = new Audio('./bell.mp3');
+      audio.play();
+    }
+  }
+
 
   function findActivityForRoom(activities, roomName) {
     const indexFound = activities.findIndex((activity) => activity.room.toLowerCase() === roomName);
@@ -55,8 +66,12 @@ $.get(programName(window.location.search), function (rawProgram) {
 
     document.getElementById("time-remaining").innerText = `${leftPad(minutes)}:${leftPad(seconds)}`;
     document.getElementById("current-title").innerText = `${currentSlot.title}`;
+    if (timeDiff <= 1000) {
+      bell()
+    }
   }
 
   updateTimeRemaining();
   window.setInterval(updateTimeRemaining, 1000);
+  document.getElementById("time-remaining").onclick = ev => muted = !muted
 });
