@@ -1,7 +1,3 @@
-
-
-
-
 function leftPad(minutes) {
   return minutes < 10 ? '0' + minutes : minutes;
 }
@@ -24,6 +20,11 @@ $.get(programName(window.location.search), function (rawProgram) {
       const audio = new Audio('./bell.mp3');
       audio.play();
     }
+  }
+
+  function muteOrUnmute() {
+    muted = !muted
+    document.getElementById("mute-button").innerText = muted ? "Unmute" : "Mute"
   }
 
 
@@ -71,7 +72,7 @@ $.get(programName(window.location.search), function (rawProgram) {
     }
   }
 
+  document.getElementById("mute-button").onclick = muteOrUnmute;
   updateTimeRemaining();
   window.setInterval(updateTimeRemaining, 1000);
-  document.getElementById("time-remaining").onclick = ev => muted = !muted
 });
