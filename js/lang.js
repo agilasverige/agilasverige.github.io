@@ -52,12 +52,12 @@ const langArr = {
         "en": "During two days we create a meeting place where the participants gather to exchange experiences, knowledge and ideas with each other. Beginners are just as welcome as experienced agile practitioners. Developer, agile coach or manager doesn’t matter. The only thing expected from you is that you’re ready to share your thoughts and experience with others.",
         "uk": " Тут протягом двох днів ми створюємо місце зустрічі, де учасники збираються для обміну досвідом, знаннями та ідеями один з одним. Ви можете приїхати в Agila Sverige як новачок або досвідчений, як програміст або менеджер. Єдине, на що очікують інші учасники конференції, це те, що ви готові поділитися своїм досвідом.",
     },
-    "nextTxt11": {
-        "sv": "Den 25-26 maj är det dags för vårens konferens på 7A Odenplan. Precis som vanligt kommer programmet att bestå av en blandning av blixttal, workshops och Open Space, med högt fokus på samtal och interaktivitet. I år har vi även två nyheter:",
-        "en": "On May 25-26 our traditional spring conference will take place at 7A Odenplan. As usual, we’ll offer a mix of lightning talks, workshops and open space sessions, with a focus on conversations and interactivity. This year we’ll also try out two brand new things:",
+    "nextSpan11": {
+        "sv": "Den 25-26 maj är det dags för vårens konferens på 7A Odenplan. Precis som vanligt kommer programmet att bestå av en blandning av blixttal, workshops och Open Space, med högt fokus på samtal och interaktivitet. Du hittar all info om konferensen ",
+        "en": "On May 25-26 our traditional spring conference will take place at 7A Odenplan. As usual, we’ll offer a mix of lightning talks, workshops and open space sessions, with a focus on conversations and interactivity. All information on the conference is available ",
         "uk": "25-26 травня – весняна конференція на Odenplan, 7А. Як завжди, програма складатиметься з блискавичних доповідей, майстер-класів і Open Space, з великим акцентом на розмови та інтерактивності. Цього року у нас також дві новинки:",
     },
-    "nextSpan11": {
+    "nextSpan111": {
         "sv": "Ett temaspår, “Agilists for Future”. Vi viger delar av agendan åt tal som anknyter till",
         "en": "A theme track, 'Agilists for future'. We’ll dedicate a part of the agenda to talks related to the",
         "uk": "Тематичний трек «Agilists for future». Тому ми особливо вітаємо внески, пов’язані iз",
@@ -92,7 +92,7 @@ const langArr = {
         "en": "Our first batch of regular tickets sold out in a few hours in January. But there is hope! We will release a few more tickets on Tuesday April 25 at 12 noon",
         "uk": "Цьогорічні квитки на участь розкупили за кілька годин. Ви пропустили випуск? Тоді рекомендуємо вам стежити за",
     },
-    "nextA21": {
+    "nextAEventSite": {
         "sv": "på vår eventsajt",
         "en": "on the conference event site",
         "uk": "",
