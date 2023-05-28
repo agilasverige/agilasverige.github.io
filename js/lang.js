@@ -53,8 +53,8 @@ const langArr = {
         "uk": " Тут протягом двох днів ми створюємо місце зустрічі, де учасники збираються для обміну досвідом, знаннями та ідеями один з одним. Ви можете приїхати в Agila Sverige як новачок або досвідчений, як програміст або менеджер. Єдине, на що очікують інші учасники конференції, це те, що ви готові поділитися своїм досвідом.",
     },
     "nextSpan11": {
-        "sv": "Den 25-26 maj är det dags för vårens konferens på 7A Odenplan. Precis som vanligt kommer programmet att bestå av en blandning av blixttal, workshops och Open Space, med högt fokus på samtal och interaktivitet. Du hittar all info om konferensen ",
-        "en": "On May 25-26 our traditional spring conference will take place at 7A Odenplan. As usual, we’ll offer a mix of lightning talks, workshops and open space sessions, with a focus on conversations and interactivity. All information on the conference is available ",
+        "sv": "Den 30 - 31 maj 2024 har vi bokat 7A Odenplan för nästa konferens. Skriv in det i din kalender redan nu!",
+        "en": "On May 30-31, 2024 we have booked 7A Odenplan for the next conference. Add it to your calendar right away!",
         "uk": "25-26 травня – весняна конференція на Odenplan, 7А. Як завжди, програма складатиметься з блискавичних доповідей, майстер-класів і Open Space, з великим акцентом на розмови та інтерактивності. Цього року у нас також дві новинки:",
     },
     "nextSpan111": {
@@ -160,8 +160,8 @@ const langArr = {
         "uk": "Щось ще?",
     },
     "nextSpan51": {
-        "sv": "Har du frågor, idéer, eller intresserad av att sponsra? ",
-        "en": "All questions, feedback and ideas are welcome! ",
+        "sv": "Har du frågor eller idéer eller vill sponsra vårt nästa event?",
+        "en": "Do you have questions or ideas or want to sponsor our next event?",
         "uk": "Маєте запитання, ідеї чи бажаєте стати спонсором?",
     },
     "nextA51": {
