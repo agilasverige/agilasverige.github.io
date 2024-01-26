@@ -53,8 +53,8 @@ const langArr = {
         "uk": " Тут протягом двох днів ми створюємо місце зустрічі, де учасники збираються для обміну досвідом, знаннями та ідеями один з одним. Ви можете приїхати в Agila Sverige як новачок або досвідчений, як програміст або менеджер. Єдине, на що очікують інші учасники конференції, це те, що ви готові поділитися своїм досвідом.",
     },
     "nextSpan11": {
-        "sv": "Den 30 - 31 maj 2024 har vi bokat 7A Odenplan för nästa konferens. Skriv in det i din kalender redan nu!",
-        "en": "On May 30-31, 2024 we have booked 7A Odenplan for the next conference. Add it to your calendar right away!",
+        "sv": "Den 30 - 31 maj 2024 har vi bokat 7A Odenplan för nästa konferens. Köp biljetter ",
+        "en": "On May 30-31, 2024 we have booked 7A Odenplan for the next conference. Purchase tickets ",
         "uk": "25-26 травня – весняна конференція на Odenplan, 7А. Як завжди, програма складатиметься з блискавичних доповідей, майстер-класів і Open Space, з великим акцентом на розмови та інтерактивності. Цього року у нас також дві новинки:",
     },
     "nextSpan111": {
@@ -63,8 +63,8 @@ const langArr = {
         "uk": "Тематичний трек «Agilists for future». Тому ми особливо вітаємо внески, пов’язані iз",
     },
     "nextA11": {
-        "sv": "FNs 17 mål",
-        "en": "UN’s 17 Sustainable Development Goals",
+        "sv": "här!",
+        "en": "here!",
         "uk": "17 цілями ООН",
     },
     "nextSpan12": {
