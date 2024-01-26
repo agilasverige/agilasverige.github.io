@@ -241,8 +241,8 @@ const langArr = {
     },
 
     "footer": {
-        "sv": "Sponsorer 2023",
-        "en": "Sponsors 2023",
+        "sv": "Sponsorer 2024",
+        "en": "Sponsors 2024",
         "uk": "Спонсори 2023",
     },
 
