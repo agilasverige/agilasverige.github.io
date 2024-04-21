@@ -125,8 +125,8 @@ const langArr = {
         "uk": "Наш",
     },
     "nextA31": {
-        "sv": "Talanmälan här!",
-        "en": "Call for proposals here!",
+        "sv": "Talanmälan stängd",
+        "en": "Call for proposals closed",
         "uk": "звіт про виступ",
     },
     "nextSpan32": {
