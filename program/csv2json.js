@@ -3,7 +3,7 @@ const moment = require('moment');
 const parse = require('csv-parse/lib/sync');
 
 
-const firstConferenceDay = moment('2023-05-25')
+const firstConferenceDay = moment('2024-05-30')
 
 function toProgramRecord(row) {
   const record =  {
