@@ -1,4 +1,4 @@
-const endOfFirstConferenceDay = Date.parse('2023-05-26T00:00:00+02:00');
+const endOfFirstConferenceDay = Date.parse('2024-05-30T00:00:00+02:00');
 const weekdays = ['söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag'];
 
 
