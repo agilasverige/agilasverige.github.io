@@ -1,0 +1,16 @@
+{
+  "name": "agila-sverige-program",
+  "version": "1.0.0",
+  "description": "Genererar json-program utifrån csv-input. Ett hack.",
+  "main": "csv2json.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pia Fåk Sunnanbo",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "csv-parse": "^4.4.6",
+    "moment": "^2.29.2",
+    "node": "^18.20.2"
+  }
+}

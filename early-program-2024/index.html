@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Program Agila Sverige 2024</title>
+    <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+    <div class="container p-3">
+        <h1>Program</h1>
+        <div class="card border-0">
+            <div class="card-body">
+                <h2 class="card-title mb-3">30 maj</h2>
+                <div id="program-day-1"></div>
+            </div>
+        </div>
+        <div class="card border-0">
+            <div class="card-body">
+                <h2 class="card-title mb-3">31 maj</h2>
+                <div id="program-day-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script id="program-template" type="text/x-handlebars-template">
+    {{#each slots}}
+    <div class="row">
+        <div class="card-group w-100 mb-3">
+            {{#each activities}}
+            <div class="card" data-start-time="{{timestamp ../start}}">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">{{localTime ../start}} - {{localTime stop}}</h5>
+                        <h6 class="card-title text-agila-muted">{{localDate ../start}}</h6>
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-agila-muted">{{room}} </h6>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{#if prefix}}{{prefix}}: {{/if}}{{title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{speaker}}</h6>
+                    {{#each descriptionParagraphs }}
+                    <p class="card-text">
+                        {{this}}
+                    </p>
+                    {{/each}}
+                    {{#if material}}
+                    <p class="card-text">
+                        <a href="./material/{{material}}">{{material}}</a>
+                    </p>
+                    {{/if}}
+                    {{#if link}}
+                    <p class="card-text">
+                        <a href="{{link}}" target="_blank">{{linkText}}</a>
+                    </p>
+                    {{/if}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    {{/each}}
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    <script src="./program.js"></script>
+</body>
+
+</html>
