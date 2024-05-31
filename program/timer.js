@@ -65,6 +65,12 @@ $.get(programName(window.location.search), function (rawProgram) {
     const minutes = Math.floor(timeDiff / 60000);
     const seconds = Math.floor((timeDiff % 60000) / 1000);
 
+    if(minutes == 0) {
+      document.body.className = "warning";
+    } else {
+      document.body.className = "";
+    }
+
     document.getElementById("time-remaining").innerText = `${leftPad(minutes)}:${leftPad(seconds)}`;
     document.getElementById("current-title").innerText = `${currentSlot.title}`;
     if (timeDiff <= 1000) {

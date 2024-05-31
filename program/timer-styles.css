@@ -1,7 +1,6 @@
 #time-remaining {
   font-size: 60vh;
   font-weight: bold;
-  color: #000;
   text-align: center;
   margin-top: 20px;
 }
@@ -9,4 +8,14 @@
 #current-title {
     text-align: center;
     margin-top: 20px;
+}
+
+body {
+  background-color: #ff2bc7e3;
+  color: #000;
+}
+
+body.warning {
+  background-color: darkred;
+  color: #fff;
 }
