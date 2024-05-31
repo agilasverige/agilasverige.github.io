@@ -53,8 +53,8 @@ const langArr = {
         "uk": " Тут протягом двох днів ми створюємо місце зустрічі, де учасники збираються для обміну досвідом, знаннями та ідеями один з одним. Ви можете приїхати в Agila Sverige як новачок або досвідчений, як програміст або менеджер. Єдине, на що очікують інші учасники конференції, це те, що ви готові поділитися своїм досвідом.",
     },
     "nextSpan11": {
-        "sv": "Den 30-31 maj är det dags för vårens konferens på 7A Odenplan. Precis som vanligt kommer programmet attbestå av en blandning av blixttal, workshops och Open Space, medhögt fokus på samtal och interaktivitet.Du hittar all info om konferensen",
-        "en": "On May 30-31 our traditional spring conference will take place at 7A Odenplan. As usual, we’ll offer a mix of lightning talks, workshops and open space sessions, with a focus on conversations and interactivity. All information on the conference is available",
+        "sv": "Våren 2025 blir det konferens igen på 7A Odenplan. Precis som vanligt kommer programmet att bestå av en blandning av blixttal, workshops och Open Space, med högt fokus på samtal och interaktivitet.",
+        "en": "The next conference will be in spring 2025 at the same spot, 7A Odenplan. As usual, we’ll offer a mix of lightning talks, workshops and open space sessions, with a focus on conversations and interactivity.",
         "uk": "25-26 травня – весняна конференція на Odenplan, 7А. Як завжди, програма складатиметься з блискавичних доповідей, майстер-класів і Open Space, з великим акцентом на розмови та інтерактивності. Цього року у нас також дві новинки:",
     },
     "nextSpan111": {
@@ -125,8 +125,8 @@ const langArr = {
         "uk": "Наш",
     },
     "nextA31": {
-        "sv": "Talanmälan stängd",
-        "en": "Call for proposals closed",
+        "sv": "Talanmälan för 2025 är redan igång!",
+        "en": "Call for proposals 2025 is already open!",
         "uk": "звіт про виступ",
     },
     "nextSpan32": {
