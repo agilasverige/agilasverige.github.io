@@ -53,8 +53,8 @@ const langArr = {
         "uk": " Тут протягом двох днів ми створюємо місце зустрічі, де учасники збираються для обміну досвідом, знаннями та ідеями один з одним. Ви можете приїхати в Agila Sverige як новачок або досвідчений, як програміст або менеджер. Єдине, на що очікують інші учасники конференції, це те, що ви готові поділитися своїм досвідом.",
     },
     "nextSpan11": {
-        "sv": "Våren 2025 blir det konferens igen på 7A Odenplan. Precis som vanligt kommer programmet att bestå av en blandning av blixttal, workshops och Open Space, med högt fokus på samtal och interaktivitet.",
-        "en": "The next conference will be in spring 2025 at the same spot, 7A Odenplan. As usual, we’ll offer a mix of lightning talks, workshops and open space sessions, with a focus on conversations and interactivity.",
+        "sv": "19-20 maj 2025 blir det konferens igen på 7A Odenplan. Precis som vanligt kommer programmet att bestå av en blandning av blixttal, workshops och Open Space, med högt fokus på samtal och interaktivitet.",
+        "en": "The next conference will be May 19-20 2025 at the same spot, 7A Odenplan. As usual, we’ll offer a mix of lightning talks, workshops and open space sessions, with a focus on conversations and interactivity.",
         "uk": "25-26 травня – весняна конференція на Odenplan, 7А. Як завжди, програма складатиметься з блискавичних доповідей, майстер-класів і Open Space, з великим акцентом на розмови та інтерактивності. Цього року у нас також дві новинки:",
     },
     "nextSpan111": {
