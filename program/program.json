@@ -456,7 +456,7 @@
         "stop": "2025-05-20T10:28:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Tänk vad man kan komma på knasiga idéer när man hänger i öknen"
+        "title": "Talk: Lessons from a dusty desert"
       },
       {
         "stop": "2025-05-20T10:28:00+02:00",
@@ -490,7 +490,7 @@
         "stop": "2025-05-20T10:56:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Den bortglömd konsten att ha teammöten som inte suger"
+        "title": "Talk: Den bortglömda konsten att ha teammöten som inte suger"
       },
       {
         "stop": "2025-05-20T10:56:00+02:00",
@@ -504,7 +504,7 @@
     "start": "2025-05-20T10:56:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-20T11:06:00+02:00",
+        "stop": "2025-05-20T11:10:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Rast"
@@ -688,6 +688,12 @@
         "stop": "2025-05-20T15:38:00+02:00",
         "room": "",
         "type": "",
+        "title": "Workshop: Leadership Agility – The Key to Future-Ready Leadership"
+      },
+      {
+        "stop": "2025-05-20T15:38:00+02:00",
+        "room": "",
+        "type": "",
         "title": "Workshop: Kulturbyggarna – Intentionen att ge"
       },
       {
@@ -695,12 +701,6 @@
         "room": "",
         "type": "",
         "title": "Workshop: Systemtänkande i praktiken – kartlägg ditt problem med CLD"
-      },
-      {
-        "stop": "2025-05-20T15:38:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Workshop: Leadership Agility – The Key to Future-Ready Leadership"
       }
     ]
   },
@@ -719,7 +719,7 @@
     "start": "2025-05-20T16:01:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-20T16:30:00+02:00",
+        "stop": "2025-05-20T16:45:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Återblick och avslutning"
