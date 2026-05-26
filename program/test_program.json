@@ -1,9 +1,15 @@
 [
   {
-    "start": "2025-05-13T08:00:00+02:00",
+    "start": "2026-05-27T08:00:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-13T09:00:00+02:00",
+        "stop": "2026-05-27T09:00:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Frukost och mingel"
+      },
+      {
+        "stop": "2026-05-28T09:00:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Frukost och mingel"
@@ -11,382 +17,16 @@
     ]
   },
   {
-    "start": "2025-05-13T09:00:00+02:00",
+    "start": "2026-05-27T09:00:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-13T09:20:00+02:00",
+        "stop": "2026-05-27T09:10:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Intro till konferensen"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T09:20:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T09:40:00+02:00",
-        "room": "Space",
-        "type": "Keynote",
-        "title": "Keynote"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T09:44:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T09:54:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: AI suger! eller Förändring gör ont!"
       },
       {
-        "stop": "2025-05-13T09:54:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Är det verkligen lathet? Om ADHD, missförstånd och potential"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T09:58:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T10:08:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: AI + Kollektiv intelligens = ❤️ Så gör vi varandra bättre"
-      },
-      {
-        "stop": "2025-05-13T10:08:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Det där med psykologisk trygghet..."
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T10:08:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T10:28:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Fika"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T10:28:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T10:38:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: I love...gah...no I hate...or maybe I love again...forking stupid AI...oooh...I Lovable"
-      },
-      {
-        "stop": "2025-05-13T10:38:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Släpp taget och få kontroll"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T10:42:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T10:52:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Use AI to get qualitative insights faster at scale"
-      },
-      {
-        "stop": "2025-05-13T10:52:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Your bias is making the call"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T10:56:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T11:06:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: We Built an AI to Give Feedback to Managers. At First, It Was Utterly Useless."
-      },
-      {
-        "stop": "2025-05-13T11:06:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Ledarskap genom kommunikation: Balansera att ta och ge utrymme i samtal"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T11:06:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T11:16:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Rast"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T11:20:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T11:30:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Why your teams are not empowered (and how to fix it)"
-      },
-      {
-        "stop": "2025-05-13T11:30:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Finance crashing the Agile Conference"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T11:34:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T11:44:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Leading in Complexity – Three Core Strategies for When Everything's a Priority (and Nothing Makes Sense)"
-      },
-      {
-        "stop": "2025-05-13T11:44:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Processer i en agil värld"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T11:48:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T11:58:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Empowered Product Teams börjar med modiga ledare"
-      },
-      {
-        "stop": "2025-05-13T11:58:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: \"Once, but turned their thinking over to machines...\""
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T11:58:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T13:00:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Lunch"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T13:00:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T13:20:00+02:00",
-        "room": "Space",
-        "type": "Keynote",
-        "title": "Keynote: Tvärfunktionell magi: så klarade vi en komplex utmaning tugga för tugga"
-      },
-      {
-        "stop": "2025-05-13T13:20:00+02:00",
-        "room": "Tab",
-        "type": "Keynote",
-        "title": "Keynote: Responsible AI"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T13:24:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T13:34:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Organisationsdesign - olika verktyg för att lyckas"
-      },
-      {
-        "stop": "2025-05-13T13:34:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Förändringens fyra årstider"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T13:38:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T13:48:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Prepping for difficult conversations"
-      },
-      {
-        "stop": "2025-05-13T13:48:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Ledarskap med Kramar och Ramar"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T13:52:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T14:02:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: När divide & conquer gick bra"
-      },
-      {
-        "stop": "2025-05-13T14:02:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Agile leaders are shape shifters"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T14:02:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T14:12:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Rast"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T14:12:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T15:42:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Workshop: Openspace"
-      },
-      {
-        "stop": "2025-05-13T15:42:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Workshop: From blockers to enablers: Learnings from developing the SVT News and Sports apps"
-      },
-      {
-        "stop": "2025-05-13T15:42:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Workshop: Att leda genom förändringens fyra årstider"
-      },
-      {
-        "stop": "2025-05-13T15:42:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Workshop: From Strategy to Action"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T15:42:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T16:02:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Fika"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T16:02:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T16:47:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Paneldebatt"
-      },
-      {
-        "stop": "2025-05-13T16:47:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Workshop: A blueprint to keep customer promises in uncharted waters and uncertain times"
-      },
-      {
-        "stop": "2025-05-13T16:47:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Workshop: Systems Thinking in Action"
-      },
-      {
-        "stop": "2025-05-13T16:47:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Workshop: Uppdragslös men inte hopplös"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T16:50:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T17:10:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Keynote: Michelles tal är en cliff hanger"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-13T17:10:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-13T23:59:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Mingelmat & barhäng"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-14T08:00:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-14T09:00:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Frukost och mingel"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-14T09:00:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-14T09:10:00+02:00",
+        "stop": "2026-05-28T09:10:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Intro till dag 2"
@@ -394,55 +34,132 @@
     ]
   },
   {
-    "start": "2025-05-14T09:10:00+02:00",
+    "start": "2026-05-27T09:12:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T09:30:00+02:00",
-        "room": "Space",
-        "type": "Keynote",
-        "title": "Keynote: 10 lessons learned from transforming Telenor Norway and the journey ahead"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-14T09:34:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-14T09:44:00+02:00",
+        "stop": "2026-05-27T09:22:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Less Gut, More Math: Smarter Decisions"
+        "title": "Jag vill inte prioritera!!!"
       },
       {
-        "stop": "2025-05-14T09:44:00+02:00",
+        "stop": "2026-05-27T09:22:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Business Agility over Single-Team Agility"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-14T09:48:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-14T09:58:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Agile Guerilla Tactics"
+        "title": "The Fear of the Wrong Step"
       },
       {
-        "stop": "2025-05-14T09:58:00+02:00",
+        "stop": "2026-05-28T09:22:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Jag skrev under agila manifestet 2002, och ni kan inte ana vad som hände sedan"
+      },
+      {
+        "stop": "2026-05-28T09:22:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Radera din backlog: Ett brandtal"
+        "title": "Speaking different \"languages\""
       }
     ]
   },
   {
-    "start": "2025-05-14T09:58:00+02:00",
+    "start": "2026-05-27T09:25:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T10:18:00+02:00",
+        "stop": "2026-05-27T09:35:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Vad händer när du inte prioriterar eller allt har högsta prio"
+      },
+      {
+        "stop": "2026-05-27T09:35:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Why Empowerment Fails"
+      },
+      {
+        "stop": "2026-05-28T09:35:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Agile Is About Ignorance"
+      },
+      {
+        "stop": "2026-05-28T09:35:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Metamönster - Stjäl andras idéer med framgång"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T09:38:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T09:48:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Allt är viktigt – och andra tankefällor jag själv gått i"
+      },
+      {
+        "stop": "2026-05-27T09:48:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Product = Business + Tech"
+      },
+      {
+        "stop": "2026-05-28T09:48:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Det var fan bättre förr"
+      },
+      {
+        "stop": "2026-05-28T09:48:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Att verka i gråzoner"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T09:51:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T10:01:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Kunskap för prioritering"
+      },
+      {
+        "stop": "2026-05-27T10:01:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Thriving in Turbulent Times: Strategy 101 for Managers, Leaders and Everyone Else"
+      },
+      {
+        "stop": "2026-05-28T10:01:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Den värdeskapande vägen tillbaka till verksamheten"
+      },
+      {
+        "stop": "2026-05-28T10:01:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Adaptive Sailing"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T10:01:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T10:20:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Fika"
+      },
+      {
+        "stop": "2026-05-28T10:20:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Fika"
@@ -450,61 +167,161 @@
     ]
   },
   {
-    "start": "2025-05-14T10:18:00+02:00",
+    "start": "2026-05-27T10:20:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T10:28:00+02:00",
+        "stop": "2026-05-27T10:30:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Tänk vad man kan komma på knasiga idéer när man hänger i öknen"
+        "title": "Skapa gemensam produkt- och affärsprioritering med hjälp av Positionering"
       },
       {
-        "stop": "2025-05-14T10:28:00+02:00",
+        "stop": "2026-05-27T10:30:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Sammanstyrning"
+        "title": "The Stakeholder Trap"
+      },
+      {
+        "stop": "2026-05-28T10:30:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Samarbete – och allt som vi gör för att förhindra det"
+      },
+      {
+        "stop": "2026-05-28T10:30:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Empowered teams under press, vad ledare gör som bromsar utan att märka det"
       }
     ]
   },
   {
-    "start": "2025-05-14T10:32:00+02:00",
+    "start": "2026-05-27T10:33:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T10:42:00+02:00",
+        "stop": "2026-05-27T10:43:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Tänka Göra-Effekten - Utveckla din organisation för nya resultat"
+        "title": "Prioritera genom en röd tråd från att ÄGA, STYRA till att LEDA. Gå från ord till handling!"
       },
       {
-        "stop": "2025-05-14T10:42:00+02:00",
+        "stop": "2026-05-27T10:43:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Nästa fluga \"Product lead\": WTF?"
+        "title": "Hypotesdriven produktutveckling på riktigt!"
+      },
+      {
+        "stop": "2026-05-28T10:43:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Bokstavligt talat nära rötterna - om att jobba utomhus"
+      },
+      {
+        "stop": "2026-05-28T10:43:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "From Business Rigidity to Business Agility"
       }
     ]
   },
   {
-    "start": "2025-05-14T10:46:00+02:00",
+    "start": "2026-05-27T10:46:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T10:56:00+02:00",
+        "stop": "2026-05-27T10:56:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Den bortglömd konsten att ha teammöten som inte suger"
+        "title": "3 pelare som tar portföljstyrningen från kvicksand till fast mark!"
       },
       {
-        "stop": "2025-05-14T10:56:00+02:00",
+        "stop": "2026-05-27T10:56:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Agile's Essence: Balancing Communication and Individual Deep Thinking"
+        "title": "AI Adoption Drives the Product Model"
+      },
+      {
+        "stop": "2026-05-28T10:56:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Ubuntu & Agile Coaching: From \"Me vs You\" to \"We\" in Organisational Coaching"
+      },
+      {
+        "stop": "2026-05-28T10:56:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Mina 5 bästa tips om ledarskap i komplexitet"
       }
     ]
   },
   {
-    "start": "2025-05-14T10:56:00+02:00",
+    "start": "2026-05-27T10:59:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T11:06:00+02:00",
+        "stop": "2026-05-27T11:09:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Prioritization is not a meeting. It is a decision."
+      },
+      {
+        "stop": "2026-05-27T11:09:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Vägen mot målet"
+      },
+      {
+        "stop": "2026-05-28T11:09:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Blue pill Red pill"
+      },
+      {
+        "stop": "2026-05-28T11:09:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Sluta fega: Från undvikande till modiga beslut"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T11:12:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T11:22:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Förlorade pengar hjälper er prioritera"
+      },
+      {
+        "stop": "2026-05-27T11:22:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Tänka Skriva – produktutveckla som en författare"
+      },
+      {
+        "stop": "2026-05-28T11:22:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Brutalist development - The missing link between scrum and management"
+      },
+      {
+        "stop": "2026-05-28T11:22:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Performance Capacity Is the New Competitive Advantage"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T11:22:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T11:40:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Rast"
+      },
+      {
+        "stop": "2026-05-28T11:40:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Rast"
@@ -512,61 +329,103 @@
     ]
   },
   {
-    "start": "2025-05-14T11:10:00+02:00",
+    "start": "2026-05-27T11:40:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T11:20:00+02:00",
+        "stop": "2026-05-27T11:50:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Boosta ditt hållbarhetsarbete med IDG och agila arbetssätt"
+        "title": "När det gör ont är det inte ett tecken på att du gör fel – det är ett tecken på att du faktiskt väljer."
       },
       {
-        "stop": "2025-05-14T11:20:00+02:00",
+        "stop": "2026-05-27T11:50:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Enshittification - när guldet blev till sand"
+        "title": "Building Product Teams at Mojang: The Minecraft Transformation Story"
+      },
+      {
+        "stop": "2026-05-28T11:50:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Hos terapeuten"
+      },
+      {
+        "stop": "2026-05-28T11:50:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Fyra uppgifter för experimentellt förändringsarbete"
       }
     ]
   },
   {
-    "start": "2025-05-14T11:24:00+02:00",
+    "start": "2026-05-27T11:53:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T11:34:00+02:00",
+        "stop": "2026-05-27T12:03:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Där gick luften ur skalat Agilt arbetssätt"
+        "title": "Att sätta teamets hållbarhet på priolistan"
       },
       {
-        "stop": "2025-05-14T11:34:00+02:00",
+        "stop": "2026-05-27T12:03:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Smärtfri omorganisation - är det möjligt?"
+        "title": "Eight years of product transformation - high-leverage factors for transformation success"
+      },
+      {
+        "stop": "2026-05-28T12:03:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Att samarbeta över beteendestilar"
+      },
+      {
+        "stop": "2026-05-28T12:03:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Beyond Control"
       }
     ]
   },
   {
-    "start": "2025-05-14T11:38:00+02:00",
+    "start": "2026-05-27T12:06:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T11:48:00+02:00",
+        "stop": "2026-05-27T12:16:00+02:00",
         "room": "Space",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Normalt teamarbete "
+        "title": "Prioritering. Vafan är det för trams?"
       },
       {
-        "stop": "2025-05-14T11:48:00+02:00",
+        "stop": "2026-05-27T12:16:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "Talk: Driva förändring med förankring, Voyados resa mot Empowered Teams"
+        "title": "8 Crucial Leaps of Product Transformations"
+      },
+      {
+        "stop": "2026-05-28T12:16:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "Building Trust in Teams and with Stakeholders"
+      },
+      {
+        "stop": "2026-05-28T12:16:00+02:00",
+        "room": "Tab",
+        "type": "Blixttal / lightning talk",
+        "title": "Den hala tvålen i transformationen"
       }
     ]
   },
   {
-    "start": "2025-05-14T11:48:00+02:00",
+    "start": "2026-05-27T12:16:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T12:50:00+02:00",
+        "stop": "2026-05-27T13:05:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Lunch"
+      },
+      {
+        "stop": "2026-05-28T13:05:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Lunch"
@@ -574,61 +433,92 @@
     ]
   },
   {
-    "start": "2025-05-14T12:50:00+02:00",
+    "start": "2026-05-27T13:05:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T13:10:00+02:00",
+        "stop": "2026-05-27T13:45:00+02:00",
         "room": "Space",
-        "type": "Keynote",
-        "title": "Keynote: Agilt bortom budgeten: Dynamisk styrning i praktiken"
+        "type": "",
+        "title": "Intro till workshop och Openspace"
       },
       {
-        "stop": "2025-05-14T13:10:00+02:00",
-        "room": "Tab",
-        "type": "Keynote",
-        "title": "Keynote: Bortom siffrorna: Datadrivet ledarskap med hjärta"
+        "stop": "2026-05-28T13:45:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Intro till workshop och Openspace"
       }
     ]
   },
   {
-    "start": "2025-05-14T13:14:00+02:00",
+    "start": "2026-05-27T13:45:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T13:24:00+02:00",
+        "stop": "2026-05-27T14:30:00+02:00",
         "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Med VD:n som stakeholder - från detalj till emalj"
+        "type": "",
+        "title": "Openspace"
       },
       {
-        "stop": "2025-05-14T13:24:00+02:00",
+        "stop": "2026-05-27T14:30:00+02:00",
         "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Att sluta göra onödigt arbete"
+        "type": "",
+        "title": "Positionering är en superkraft. Fyra frågor är starten på denna superkraft. (pass 1/2)"
+      },
+      {
+        "stop": "2026-05-27T14:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Start-up and top-up games for teams"
+      },
+      {
+        "stop": "2026-05-27T14:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Fix the Human System First: AI Insights for Real Transformation"
+      },
+      {
+        "stop": "2026-05-27T14:30:00+02:00",
+        "room": "",
+        "type": "",
+        "title": "Street Wisdom Walkshop - en promenad för nya perspektiv (pass 1/2)"
+      },
+      {
+        "stop": "2026-05-28T14:30:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Openspace"
+      },
+      {
+        "stop": "2026-05-28T14:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "How can we influence the leaders of tomorrow"
+      },
+      {
+        "stop": "2026-05-28T14:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Hur allt hänger ihop (pass 1/2)"
+      },
+      {
+        "stop": "2026-05-28T14:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Extreme Collaboration: Lego Workshop (pass 1/2)"
       }
     ]
   },
   {
-    "start": "2025-05-14T13:28:00+02:00",
+    "start": "2026-05-27T14:30:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T13:38:00+02:00",
+        "stop": "2026-05-27T14:45:00+02:00",
         "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Vad är det nya svarta?"
+        "type": "",
+        "title": "Rast"
       },
       {
-        "stop": "2025-05-14T13:38:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Talk: Discovery board. Hur man blir snabb både på att utforska och avfärda"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-14T13:38:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-14T13:48:00+02:00",
+        "stop": "2026-05-28T14:45:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Rast"
@@ -636,39 +526,75 @@
     ]
   },
   {
-    "start": "2025-05-14T13:48:00+02:00",
+    "start": "2026-05-27T14:45:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T14:33:00+02:00",
+        "stop": "2026-05-27T15:30:00+02:00",
         "room": "Space",
         "type": "",
-        "title": "Takyontal"
+        "title": "Openspace"
       },
       {
-        "stop": "2025-05-14T14:33:00+02:00",
-        "room": "",
+        "stop": "2026-05-27T15:30:00+02:00",
+        "room": "Tab",
         "type": "",
-        "title": "Workshop: Running a Future Workshop"
+        "title": "Positionering är en superkraft. Fyra frågor är starten på denna superkraft. (pass 2/2)"
       },
       {
-        "stop": "2025-05-14T14:33:00+02:00",
-        "room": "",
+        "stop": "2026-05-27T15:30:00+02:00",
+        "room": "Tab",
         "type": "",
-        "title": "Workshop: Så här bygger du i Lovable. En demo hur Agila Sveriges nya site byggdes utan en enda handskriven kodrad."
+        "title": "Why Empowerment Fails: The 4C Model of Empowered Product Work (pass 1/2)"
       },
       {
-        "stop": "2025-05-14T14:33:00+02:00",
+        "stop": "2026-05-27T15:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Integral & Adult Development som praktiskt verktyg (pass 1/2)"
+      },
+      {
+        "stop": "2026-05-27T15:30:00+02:00",
         "room": "",
         "type": "",
-        "title": "Workshop: Beyond agile - the human connection"
+        "title": "Street Wisdom Walkshop - en promenad för nya perspektiv (pass 2/2)"
+      },
+      {
+        "stop": "2026-05-28T15:30:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Openspace"
+      },
+      {
+        "stop": "2026-05-28T15:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Hur allt hänger ihop (pass 2/2)"
+      },
+      {
+        "stop": "2026-05-28T15:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Extreme Collaboration: Lego Workshop (pass 2/2)"
+      },
+      {
+        "stop": "2026-05-28T15:30:00+02:00",
+        "room": "Tab",
+        "type": "",
+        "title": "Hitta din personliga ledarskapsresa"
       }
     ]
   },
   {
-    "start": "2025-05-14T14:33:00+02:00",
+    "start": "2026-05-27T15:30:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T14:53:00+02:00",
+        "stop": "2026-05-27T15:45:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Fika"
+      },
+      {
+        "stop": "2026-05-28T15:45:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Fika"
@@ -676,53 +602,81 @@
     ]
   },
   {
-    "start": "2025-05-14T14:53:00+02:00",
+    "start": "2026-05-27T15:45:00+02:00",
     "activities": [
       {
-        "stop": "2025-05-14T15:38:00+02:00",
+        "stop": "2026-05-27T16:30:00+02:00",
         "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Paneldebatt"
+        "type": "",
+        "title": "Openspace"
       },
       {
-        "stop": "2025-05-14T15:38:00+02:00",
-        "room": "",
+        "stop": "2026-05-27T16:30:00+02:00",
+        "room": "Tab",
         "type": "",
-        "title": "Workshop: Kulturbyggarna – Intentionen att ge"
+        "title": "Why Empowerment Fails: The 4C Model of Empowered Product Work (pass 2/2)"
       },
       {
-        "stop": "2025-05-14T15:38:00+02:00",
-        "room": "",
+        "stop": "2026-05-27T16:30:00+02:00",
+        "room": "Tab",
         "type": "",
-        "title": "Workshop: Systemtänkande i praktiken – kartlägg ditt problem med CLD"
+        "title": "Integral & Adult Development som praktiskt verktyg (pass 2/2)"
       },
       {
-        "stop": "2025-05-14T15:38:00+02:00",
-        "room": "",
+        "stop": "2026-05-27T16:30:00+02:00",
+        "room": "Tab",
         "type": "",
-        "title": "Workshop: Leadership Agility – The Key to Future-Ready Leadership"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-14T15:41:00+02:00",
-    "activities": [
+        "title": "Hantera \"Svåra\" jobbrelationer"
+      },
       {
-        "stop": "2025-05-14T16:01:00+02:00",
-        "room": "Space",
-        "type": "Keynote",
-        "title": "Keynote: 5 Patterns on How to Lead the Organization"
-      }
-    ]
-  },
-  {
-    "start": "2025-05-14T16:01:00+02:00",
-    "activities": [
-      {
-        "stop": "2025-05-14T16:30:00+02:00",
+        "stop": "2026-05-28T16:30:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Återblick och avslutning"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T16:45:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T16:55:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "TBA"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T16:58:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T17:08:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "TBA"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T17:11:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T17:21:00+02:00",
+        "room": "Space",
+        "type": "Blixttal / lightning talk",
+        "title": "AI agents and soft skills"
+      }
+    ]
+  },
+  {
+    "start": "2026-05-27T17:22:00+02:00",
+    "activities": [
+      {
+        "stop": "2026-05-27T23:59:00+02:00",
+        "room": "Space",
+        "type": "",
+        "title": "Mingelmat & barhäng"
       }
     ]
   }
