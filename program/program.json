@@ -1,13 +1,7 @@
 [
   {
-    "start": "2026-05-28T08:00:00+02:00",
+    "start": "2026-05-29T08:00:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T09:00:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Frukost och mingel"
-      },
       {
         "stop": "2026-05-29T09:00:00+02:00",
         "room": "Space",
@@ -17,14 +11,8 @@
     ]
   },
   {
-    "start": "2026-05-28T09:00:00+02:00",
+    "start": "2026-05-29T09:00:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T09:10:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Intro till konferensen"
-      },
       {
         "stop": "2026-05-29T09:10:00+02:00",
         "room": "Space",
@@ -34,20 +22,8 @@
     ]
   },
   {
-    "start": "2026-05-28T09:12:00+02:00",
+    "start": "2026-05-29T09:12:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T09:22:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Jag vill inte prioritera!!!"
-      },
-      {
-        "stop": "2026-05-28T09:22:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "The Fear of the Wrong Step"
-      },
       {
         "stop": "2026-05-29T09:22:00+02:00",
         "room": "Space",
@@ -63,20 +39,8 @@
     ]
   },
   {
-    "start": "2026-05-28T09:25:00+02:00",
+    "start": "2026-05-29T09:25:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T09:35:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Vad händer när du inte prioriterar eller allt har högsta prio"
-      },
-      {
-        "stop": "2026-05-28T09:35:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Why Empowerment Fails"
-      },
       {
         "stop": "2026-05-29T09:35:00+02:00",
         "room": "Space",
@@ -92,20 +56,8 @@
     ]
   },
   {
-    "start": "2026-05-28T09:38:00+02:00",
+    "start": "2026-05-29T09:38:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T09:48:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Allt är viktigt – och andra tankefällor jag själv gått i"
-      },
-      {
-        "stop": "2026-05-28T09:48:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Product = Business + Tech"
-      },
       {
         "stop": "2026-05-29T09:48:00+02:00",
         "room": "Space",
@@ -121,20 +73,8 @@
     ]
   },
   {
-    "start": "2026-05-28T09:51:00+02:00",
+    "start": "2026-05-29T09:51:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T10:01:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Kunskap för prioritering"
-      },
-      {
-        "stop": "2026-05-28T10:01:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Thriving in Turbulent Times: Strategy 101 for Managers, Leaders and Everyone Else"
-      },
       {
         "stop": "2026-05-29T10:01:00+02:00",
         "room": "Space",
@@ -150,14 +90,8 @@
     ]
   },
   {
-    "start": "2026-05-28T10:01:00+02:00",
+    "start": "2026-05-29T10:01:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T10:20:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Fika"
-      },
       {
         "stop": "2026-05-29T10:20:00+02:00",
         "room": "Space",
@@ -167,20 +101,8 @@
     ]
   },
   {
-    "start": "2026-05-28T10:20:00+02:00",
+    "start": "2026-05-29T10:20:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T10:30:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Skapa gemensam produkt- och affärsprioritering med hjälp av Positionering"
-      },
-      {
-        "stop": "2026-05-28T10:30:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "The Stakeholder Trap"
-      },
       {
         "stop": "2026-05-29T10:30:00+02:00",
         "room": "Space",
@@ -196,20 +118,8 @@
     ]
   },
   {
-    "start": "2026-05-28T10:33:00+02:00",
+    "start": "2026-05-29T10:33:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T10:43:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Prioritera genom en röd tråd från att ÄGA, STYRA till att LEDA. Gå från ord till handling!"
-      },
-      {
-        "stop": "2026-05-28T10:43:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Hypotesdriven produktutveckling på riktigt!"
-      },
       {
         "stop": "2026-05-29T10:43:00+02:00",
         "room": "Space",
@@ -220,25 +130,13 @@
         "stop": "2026-05-29T10:43:00+02:00",
         "room": "Tab",
         "type": "Blixttal / lightning talk",
-        "title": "From Business Rigidity to Business Agility"
+        "title": "We Reorganized… So Why Did Nothing Change?"
       }
     ]
   },
   {
-    "start": "2026-05-28T10:46:00+02:00",
+    "start": "2026-05-29T10:46:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T10:56:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "3 pelare som tar portföljstyrningen från kvicksand till fast mark!"
-      },
-      {
-        "stop": "2026-05-28T10:56:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "AI Adoption Drives the Product Model"
-      },
       {
         "stop": "2026-05-29T10:56:00+02:00",
         "room": "Space",
@@ -254,20 +152,8 @@
     ]
   },
   {
-    "start": "2026-05-28T10:59:00+02:00",
+    "start": "2026-05-29T10:59:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T11:09:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Prioritization is not a meeting. It is a decision."
-      },
-      {
-        "stop": "2026-05-28T11:09:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Vägen mot målet"
-      },
       {
         "stop": "2026-05-29T11:09:00+02:00",
         "room": "Space",
@@ -283,20 +169,8 @@
     ]
   },
   {
-    "start": "2026-05-28T11:12:00+02:00",
+    "start": "2026-05-29T11:12:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T11:22:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Förlorade pengar hjälper er prioritera"
-      },
-      {
-        "stop": "2026-05-28T11:22:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Tänka Skriva – produktutveckla som en författare"
-      },
       {
         "stop": "2026-05-29T11:22:00+02:00",
         "room": "Space",
@@ -312,14 +186,8 @@
     ]
   },
   {
-    "start": "2026-05-28T11:22:00+02:00",
+    "start": "2026-05-29T11:22:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T11:40:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Rast"
-      },
       {
         "stop": "2026-05-29T11:40:00+02:00",
         "room": "Space",
@@ -329,20 +197,8 @@
     ]
   },
   {
-    "start": "2026-05-28T11:40:00+02:00",
+    "start": "2026-05-29T11:40:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T11:50:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "När det gör ont är det inte ett tecken på att du gör fel – det är ett tecken på att du faktiskt väljer."
-      },
-      {
-        "stop": "2026-05-28T11:50:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Building Product Teams at Mojang: The Minecraft Transformation Story"
-      },
       {
         "stop": "2026-05-29T11:50:00+02:00",
         "room": "Space",
@@ -358,20 +214,8 @@
     ]
   },
   {
-    "start": "2026-05-28T11:53:00+02:00",
+    "start": "2026-05-29T11:53:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T12:03:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Att sätta teamets hållbarhet på priolistan"
-      },
-      {
-        "stop": "2026-05-28T12:03:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "Eight years of product transformation - high-leverage factors for transformation success"
-      },
       {
         "stop": "2026-05-29T12:03:00+02:00",
         "room": "Space",
@@ -387,20 +231,8 @@
     ]
   },
   {
-    "start": "2026-05-28T12:06:00+02:00",
+    "start": "2026-05-29T12:06:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T12:16:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "Prioritering. Vafan är det för trams?"
-      },
-      {
-        "stop": "2026-05-28T12:16:00+02:00",
-        "room": "Tab",
-        "type": "Blixttal / lightning talk",
-        "title": "8 Crucial Leaps of Product Transformations"
-      },
       {
         "stop": "2026-05-29T12:16:00+02:00",
         "room": "Space",
@@ -416,13 +248,13 @@
     ]
   },
   {
-    "start": "2026-05-28T12:16:00+02:00",
+    "start": "2026-05-29T12:16:00+02:00",
     "activities": [
       {
-        "stop": "2026-05-28T13:05:00+02:00",
+        "stop": "2026-05-29T12:16:00+02:00",
         "room": "Space",
         "type": "",
-        "title": "Lunch"
+        "title": "Här presenteras vilka som fått plats på workshops"
       },
       {
         "stop": "2026-05-29T13:05:00+02:00",
@@ -433,14 +265,8 @@
     ]
   },
   {
-    "start": "2026-05-28T13:05:00+02:00",
+    "start": "2026-05-29T13:05:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T13:45:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Intro till workshop och Openspace"
-      },
       {
         "stop": "2026-05-29T13:45:00+02:00",
         "room": "Space",
@@ -450,38 +276,8 @@
     ]
   },
   {
-    "start": "2026-05-28T13:45:00+02:00",
+    "start": "2026-05-29T13:45:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T14:30:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Openspace"
-      },
-      {
-        "stop": "2026-05-28T14:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Positionering är en superkraft. Fyra frågor är starten på denna superkraft. (pass 1/2)"
-      },
-      {
-        "stop": "2026-05-28T14:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Start-up and top-up games for teams"
-      },
-      {
-        "stop": "2026-05-28T14:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Fix the Human System First: AI Insights for Real Transformation"
-      },
-      {
-        "stop": "2026-05-28T14:30:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Street Wisdom Walkshop - en promenad för nya perspektiv (pass 1/2)"
-      },
       {
         "stop": "2026-05-29T14:30:00+02:00",
         "room": "Space",
@@ -509,14 +305,8 @@
     ]
   },
   {
-    "start": "2026-05-28T14:30:00+02:00",
+    "start": "2026-05-29T14:30:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T14:45:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Rast"
-      },
       {
         "stop": "2026-05-29T14:45:00+02:00",
         "room": "Space",
@@ -526,38 +316,8 @@
     ]
   },
   {
-    "start": "2026-05-28T14:45:00+02:00",
+    "start": "2026-05-29T14:45:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T15:30:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Openspace"
-      },
-      {
-        "stop": "2026-05-28T15:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Positionering är en superkraft. Fyra frågor är starten på denna superkraft. (pass 2/2)"
-      },
-      {
-        "stop": "2026-05-28T15:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Why Empowerment Fails: The 4C Model of Empowered Product Work (pass 1/2)"
-      },
-      {
-        "stop": "2026-05-28T15:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Integral & Adult Development som praktiskt verktyg (pass 1/2)"
-      },
-      {
-        "stop": "2026-05-28T15:30:00+02:00",
-        "room": "",
-        "type": "",
-        "title": "Street Wisdom Walkshop - en promenad för nya perspektiv (pass 2/2)"
-      },
       {
         "stop": "2026-05-29T15:30:00+02:00",
         "room": "Space",
@@ -585,14 +345,8 @@
     ]
   },
   {
-    "start": "2026-05-28T15:30:00+02:00",
+    "start": "2026-05-29T15:30:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T15:45:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Fika"
-      },
       {
         "stop": "2026-05-29T15:45:00+02:00",
         "room": "Space",
@@ -602,81 +356,13 @@
     ]
   },
   {
-    "start": "2026-05-28T15:45:00+02:00",
+    "start": "2026-05-29T15:45:00+02:00",
     "activities": [
-      {
-        "stop": "2026-05-28T16:30:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Openspace"
-      },
-      {
-        "stop": "2026-05-28T16:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Why Empowerment Fails: The 4C Model of Empowered Product Work (pass 2/2)"
-      },
-      {
-        "stop": "2026-05-28T16:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Integral & Adult Development som praktiskt verktyg (pass 2/2)"
-      },
-      {
-        "stop": "2026-05-28T16:30:00+02:00",
-        "room": "Tab",
-        "type": "",
-        "title": "Hantera \"Svåra\" jobbrelationer"
-      },
       {
         "stop": "2026-05-29T16:30:00+02:00",
         "room": "Space",
         "type": "",
         "title": "Återblick och avslutning"
-      }
-    ]
-  },
-  {
-    "start": "2026-05-28T16:45:00+02:00",
-    "activities": [
-      {
-        "stop": "2026-05-28T16:55:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "TBA"
-      }
-    ]
-  },
-  {
-    "start": "2026-05-28T16:58:00+02:00",
-    "activities": [
-      {
-        "stop": "2026-05-28T17:08:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "TBA"
-      }
-    ]
-  },
-  {
-    "start": "2026-05-28T17:11:00+02:00",
-    "activities": [
-      {
-        "stop": "2026-05-28T17:21:00+02:00",
-        "room": "Space",
-        "type": "Blixttal / lightning talk",
-        "title": "AI agents and soft skills"
-      }
-    ]
-  },
-  {
-    "start": "2026-05-28T17:22:00+02:00",
-    "activities": [
-      {
-        "stop": "2026-05-28T23:59:00+02:00",
-        "room": "Space",
-        "type": "",
-        "title": "Mingelmat & barhäng"
       }
     ]
   }
